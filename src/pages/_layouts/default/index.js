@@ -7,6 +7,6 @@ export default function DefaultLayout({ children }) {
   return <Wrapper>{children}</Wrapper>;
 }
 
-DefaultLayout.protTypes = {
+DefaultLayout.propTypes = {
   children: PropTypes.element.isRequired,
 };
