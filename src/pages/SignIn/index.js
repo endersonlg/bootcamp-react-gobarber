@@ -14,7 +14,7 @@ export default function SignIn() {
       <img src={logo} alt="GoBarber" />
 
       <Form onSubmit={handleSubmit}>
-        <Input name="name" type="email" placeholder="Seu e-mail" />
+        <Input name="email" type="email" placeholder="Seu e-mail" />
         <Input
           name="password"
           type="password"
